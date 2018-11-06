@@ -1,0 +1,27 @@
+.App {
+  background-color: rgba(224, 224, 224, .5);
+  margin: 5%;
+  padding: 2%;
+}
+
+.Heading {
+  text-align: center;
+}
+
+.Table {
+  margin-top: 2%;
+  background-color: white;
+  box-shadow: 10px 10px rgba(210, 208, 208, 0.87);
+}
+
+.TableRow:nth-of-type(odd) {
+  background-color: aliceblue;
+}
+
+.TableHead {
+  background-color: black;
+}
+
+.TableCell {
+  color: white !important;
+}
