@@ -72,7 +72,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h3 className="Heading">List of Posts</h3>
+        <h3 className="Heading">List of Posts </h3>
         <label htmlFor="titleFilter">Filter data as per title: </label>
         <input type="text" id="titleFilter" onChange={this.handleFilter}></input>
         {table}
